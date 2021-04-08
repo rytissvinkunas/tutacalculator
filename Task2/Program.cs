@@ -10,7 +10,13 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Helo world");
+            Console.WriteLine("input a:");
+            string inputA = Console.ReadLine();
+            Console.WriteLine("input b:");
+            string inputB = Console.ReadLine();
+
+            int sum = int.Parse(inputA) + int.Parse(inputB);
+            Console.WriteLine(sum);
             Console.ReadLine();
         }
     }
