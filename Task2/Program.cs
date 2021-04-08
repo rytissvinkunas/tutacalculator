@@ -15,7 +15,7 @@ namespace Task2
             Console.WriteLine("input b:");
             string inputB = Console.ReadLine();
 
-            int sum = int.Parse(inputA) + int.Parse(inputB);
+            int sum = int.Parse(inputA) + int.Parse(inputB); //parsed strings to int and then added them
             Console.WriteLine(sum);
             Console.ReadLine();
         }
